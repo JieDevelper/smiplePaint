@@ -10,4 +10,16 @@
 
 @interface PaintView : UIView
 
+@property (nonatomic, assign) CGFloat lineWidth;
+@property (nonatomic, strong) UIColor *lineColor;
+@property (nonatomic, strong) UIImage *image;
+
+// 清除
+- (void)clear;
+
+// 回退
+- (void)backSpace;
+
+// 橡皮擦
+- (void)eraser;
 @end

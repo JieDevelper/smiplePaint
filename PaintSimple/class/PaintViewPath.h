@@ -10,4 +10,6 @@
 
 @interface PaintViewPath : UIBezierPath
 
+@property (nonatomic, strong) UIColor *lineColor;
+@property (nonatomic, strong) UIImage *image;
 @end

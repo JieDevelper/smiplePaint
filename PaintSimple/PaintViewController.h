@@ -10,6 +10,5 @@
 
 @interface PaintViewController : UIViewController
 
-
 @end
 
