@@ -6,13 +6,13 @@
 //  Copyright © 2016 apple. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PaintViewController.h"
 
-@interface ViewController ()
+@interface PaintViewController ()
 
 @end
 
-@implementation ViewController
+@implementation PaintViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
